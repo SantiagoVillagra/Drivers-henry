@@ -1,0 +1,30 @@
+.fondo {
+    background-image: url('../../assets/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+ 
+
+}
+
+.button {
+    padding: 10px 20px; 
+    border: rgba(24, 53, 186, 0.854);
+    cursor: pointer;
+   border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+/* 
+# selecciono por id 
+. selecciono por clase 
+p por elemento  */

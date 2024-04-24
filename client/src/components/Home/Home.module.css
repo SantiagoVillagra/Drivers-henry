@@ -1,0 +1,27 @@
+
+.home{
+    /* background-image: url('../../assets/autof1.jpeg'); */
+    background: url('../../assets/autof1.jpeg') no-repeat center center fixed;
+    background-size: 100% 100%;
+
+    height: 100vh; 
+    box-sizing: border-box;
+
+}
+
+
+.btn-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    color: #089;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+    background-color: #ff9900;
+}
+

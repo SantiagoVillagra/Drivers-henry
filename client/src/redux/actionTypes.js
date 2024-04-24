@@ -1,0 +1,7 @@
+export const GET_POKEMONS = "GET_POKEMONS"
+
+export const SEARCH_POKEMONS = "SEARCH_POKEMONS"
+
+export const POKEMONS_TYPES = "POKEMONS_TYPES"
+
+export const FILTER_ORDER = "FILTER_ORDER"
