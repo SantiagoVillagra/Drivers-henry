@@ -13,7 +13,7 @@ const contDriverName = async (name) => {
                 name: name.forename,
                 lastname: name.surname,
                 description: !description? "There's not description available" : description,
-                image: !image.url? "fakeURL.com" : image.url,
+                image: !image.url? "fakeURL.com" : image.url, //completar con url de imagen real
                 nationality,
                 dob,
                 Teams: teamsArray? teamsArray : ["Sorry, there is no information about this driver teams."]
@@ -94,7 +94,7 @@ const contDriverId = async (id, esString) => {
             name: name.forename,
             lastname: name.surname,
             description: !description? "There's not description available" : description,
-            image: !image.url? "fakeURL.com" : image.url,
+            image: !image.url? "fakeURL.com" : image.url, // COMPLETAR CON URL FALSA POR EJEMPLO CASCO
             nationality,
             dob,
             Teams: teamsArray? teamsArray : ["Sorry, there is no information about this driver teams."],
